@@ -13,6 +13,8 @@ class MainActivity : AppCompatActivity() {
             // Access the DieFragment and call throwDie() method
             (supportFragmentManager
                 .findFragmentById(R.id.fragmentContainerView) as DieFragment).throwDie()
+            (supportFragmentManager
+                .findFragmentById(R.id.fragmentContainerView2) as DieFragment).throwDie()
         }
     }
 }
